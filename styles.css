@@ -1,13 +1,17 @@
+
+/* Reseta o css */
 *{
     margin:0px;
     padding:0px;
     font-family:helvetica;
   }
   
+/* Define estilos gerais do corpo, cabeçalho */
+
   body{
     background-color:lightgray;
   }
-  
+
   main{
     width:100vw;
     height:90vh;
@@ -21,16 +25,19 @@
   header{
     margin:20px;
   }
+
+/* Define estilos na Logo */
   
   .logo{
     font-size:1rem
   }
-  
+
   .span-logo{
     color:purple;
     border-bottom: 3px solid purple;
   }
 
+/* Define estilo destaque em uma palavra no slogan */
 
   .span-js{
     background-color: gold;
@@ -38,6 +45,8 @@
     border-radius: 5px;
   }
  
+/* Define estilo no container esquerdo da página*/
+
   aside{
     
     display: flex;
@@ -50,6 +59,8 @@
     font-size: 1rem;
     font-weight: 600;
   }
+
+/* Define estilo no container direito da pagina e detalhes no formulário*/
   
   form{
     color:white;
@@ -71,9 +82,3 @@
     text-align: center
     ;
   }
-
-
-  
-  
-  
-  
