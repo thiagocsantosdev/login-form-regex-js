@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1 class="logo">thiagocsantos<span class="span-logo">dev</span></h1>
+  </header>
+   
+  <main>
+    <aside>
+      <h1>
+        RegEx<span class="span-js">JS</span>
+      </h1>
+      <p>
+        Desvendando padrões, criando possibilidades
+      </p>
+    </aside>
+    <form action="">
+      <label for="user">Nome de Usuário</label>
+      <input class="input-form" type="text" id="inputUser" name="text" maxlength="10" oninput="userIdPass()" required>
+      <label for="password">Password:</label>
+      <input class="input-form"  type="password" id="password1" maxlength="10" onkeyup="senhaForte()" required>
+      <div class="regras-password">
+        <p id="letraMaiuscula">Letra Maiúscula</p>
+        <p id="letraMinuscula">Letra Minúscula</p>
+        <p id="numeros">Números</p>
+        <p id="totalCaracters">De 6 a 10 Caracteres</p>
+      </div>
+      <input type="submit" value="Cadastrar" id="btnCadastrar" disabled>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
