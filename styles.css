@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:helvetica;
+  }
+  
+  body{
+    background-color:lightgray;
+  }
+  
+  main{
+    width:100vw;
+    height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+  
+  
+  }
+  
+  header{
+    margin:20px;
+  }
+  
+  .logo{
+    font-size:1rem
+  }
+  
+  .span-logo{
+    color:purple;
+    border-bottom: 3px solid purple;
+  }
+
+
+  .span-js{
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+  }
+ 
+  aside{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+  aside p{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  form{
+    color:white;
+    background-color:purple;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    border: 1px solid purple;
+    border-radius:5px;
+    padding:40px;
+  }
+  
+  .regras-password .email-invalido{
+    font-size:.8rem;
+    color:lightgray;
+  }
+
+  .input-form{
+    text-align: center
+    ;
+  }
+
+
+  
+  
+  
+  
